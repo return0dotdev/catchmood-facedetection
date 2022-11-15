@@ -1,0 +1,117 @@
+/*hide the inputs/checkmarks and submenu*/
+.color-span span {
+  background-color: black !important;
+}
+
+.menu-background {
+  background-color: #b99180;
+  -webkit-box-shadow: 4px 5px 10px -4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 4px 5px 10px -4px rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 5px 10px -4px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+}
+
+.menu-default {
+  margin-top: 6px;
+  overflow-x: hidden;
+  width: 100%;
+  text-overflow: ellipsis;
+}
+
+.menu-default:hover {
+  background-color: #f5d9cd;
+  -webkit-box-shadow: 4px 5px 10px -4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 4px 5px 10px -4px rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 5px 10px -4px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+}
+
+.add-course-background {
+  background-color: #fff;
+  -webkit-box-shadow: 4px 5px 10px -4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 4px 5px 10px -4px rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 5px 10px -4px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  overflow-x: hidden;
+  width: 100%;
+  text-overflow: ellipsis;
+}
+.nav-style {
+  background-image: url("../img/fbb448a9d3bdbfccdce988f8a3b33623.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  border-radius: 0px 45px 0px 0px;
+  -webkit-box-shadow: 4px 7px 14px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 7px 14px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 7px 14px -4px rgba(0, 0, 0, 0.75);
+  padding-left: 8px;
+  padding-right: 8px;
+  overflow-y: auto;
+  direction: rtl;
+}
+
+.nav-style::-webkit-scrollbar {
+  width: 5px;
+}
+
+.nav-style::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.nav-style::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+.color-topic {
+  color: #707070;
+}
+
+.small-image-show-rotate {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.big-image-show-rotate {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.small-image-show {
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-box {
+  border-radius: 25px;
+}
+
+.input-box-textarea {
+  border-radius: 25px;
+  height: auto !important;
+}
+
+.row-padding {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.text-input-box {
+  margin-top: 30px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.swal-wide {
+  width: 600px !important;
+}

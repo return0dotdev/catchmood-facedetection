@@ -1,0 +1,20 @@
+
+.showloading .modal-content {
+  height: 100% !important;
+  border: none !important;
+  top: 50px;
+  background-color: #ffffff00 !important;
+}
+.showloading .bg-blue {
+  background-color: #ffffff00 !important;
+}
+
+._loading {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: calc(50vh - 100px);
+  left: calc(50vw - 100px);
+}
